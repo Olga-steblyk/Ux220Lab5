@@ -23,7 +23,7 @@ customElements.define("x-fullyear", YearElement);
 
 class LookElement extends HTMLElement{
     connectedCallback(){
-        this.innerHTML = `<div style="color:#370617">${this.innerHTML}</div>`;
+        this.innerHTML = `<div style="color:#370617;text-decoration: underline;">${this.innerHTML}</div>`;
 
     }
 }
