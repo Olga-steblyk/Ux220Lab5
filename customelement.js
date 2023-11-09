@@ -20,3 +20,11 @@ class YearElement extends HTMLElement {
     }
 }
 customElements.define("x-fullyear", YearElement);
+
+class LookElement extends HTMLElement{
+    connectedCallback(){
+        this.innerHTML = `<div style="color:#370617">${this.innerHTML}</div>`;
+
+    }
+}
+customElements.define("x-gothic", LookElement);

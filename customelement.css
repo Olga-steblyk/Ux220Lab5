@@ -4,3 +4,15 @@ x-center{
 x-center{
     visibility: visible;
 }
+body{
+    background-color: #f0ebd8;
+}
+h1{
+    background-color: #1d2d44;
+    padding:5px;
+    color:#f0ebd8; 
+}
+x-gothic{
+    color:#370617;
+
+}
