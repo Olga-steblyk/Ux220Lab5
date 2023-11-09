@@ -14,8 +14,8 @@ class CenterElement extends HTMLElement {
 customElements.define("x-center", CenterElement);
 
 class YearElement extends HTMLElement {
-    connectedCallback() {
-        this.htmlHTML = new Date().getFullYear();
+    connectedCallback(){
+        this.htmlHTML=new Date().getFullYear();
 
     }
 }
