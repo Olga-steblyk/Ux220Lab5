@@ -8,14 +8,14 @@ customElements.define("x-olga", OlgaElement);
 
 class CenterElement extends HTMLElement {
     connectedCallback() {
-        this.htmlHTML = `<div style="text-align:center">${this.innerHTML}</div>`;
+        this.innerHTML = `<div style="text-align:center">${this.innerHTML}</div>`;
     }
 }
 customElements.define("x-center", CenterElement);
 
 class YearElement extends HTMLElement {
     connectedCallback(){
-        this.htmlHTML=new Date().getFullYear();
+        this.innerHTML=new Date().getFullYear();
 
     }
 }
